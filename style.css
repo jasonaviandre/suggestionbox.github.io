@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    
+}
+
+.zone {
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid #bbb;
+    border-radius: 50px;
+    transition: all 0.2s linear;
+    padding: 25px;
+}
+
+.color {
+    background: #333;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
